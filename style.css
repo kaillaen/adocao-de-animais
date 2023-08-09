@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    text-align: center;
+
+}
+header{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.5px solid gainsboro;
+}
+
+
+#estilo_logo{
+    height: 70px;
+    width: 90px;
+}
+#estilo_titulo{
+    font-family: 'Poppins', sans-serif;
+    width: 600px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+#estilo_acesso{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#estilo_link{
+    width: 125px;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+   #caixa_tamanho_logo{
+    width: 48px;
+    height:200px;
+
+   }
+     
+#estilo_nav{
+    background-color: rgb(131, 216, 139);
+    text-align: center;
+    width: 1800px;
+    height:50px ;
+}
+
+#estilo_links_nav:hover{
+    background-color: yellow;
+}
+.caixa_tamanho_contatos{
+    width: 32px;
+    height: 32px;
+}
+
+#estilo_secao_principal{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+#estilo_secao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.justificar_texto{
+    text-align: justify;
+}
+
+th{
+    border: 1px solid black;
+    padding: 5px;
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+#estilo_imagem{
+
+    width: 50%;
+}
+footer{
+    height: 400px;
+    border-top: 0.5px solid gainsboro;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#estilo1_rodape{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#estilo3_rodape{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.missão{
+    display: flex;
+    flex-direction: column;
+
+}
+#linha_espelho{
+    display: flex;
+    background-color:white;
+    align-items: center;
+    justify-content: space-around;
+}
+.imagem_espelho{
+    width: 50%;
+}
+
+
+
+
+
