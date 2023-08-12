@@ -146,8 +146,13 @@ footer{
 .imagem_espelho{
     width: 50%;
 }
+fieldset{
+    display:flex;
 
-
-
-
-
+}
+body{
+    background-color: rgb(115, 150, 115);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
